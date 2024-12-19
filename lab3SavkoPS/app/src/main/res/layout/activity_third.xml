@@ -1,0 +1,57 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/editTextRouteParam1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Откуда: Город" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Улица" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Квартира" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Куда: Город" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam5"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Улица" />
+
+    <EditText
+        android:id="@+id/editTextRouteParam6"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Квартира" />
+
+    <Button
+        android:id="@+id/buttonOK"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="OK" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="256dp"
+        android:layout_height="wrap_content"
+        android:layout_marginHorizontal="70dp"
+        android:layout_marginTop="330dp"
+        android:layout_marginBottom="14dp"
+        android:text="@string/author" />
+</LinearLayout>
